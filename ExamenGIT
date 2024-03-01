@@ -1,3 +1,8 @@
 Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
 
 PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
+
+El primer lugar es el Directorio que es la carpeta donde se encuentra por ejemplo el txt, si queremos mover el txt del repositorio a nuestro lugar de trabajo a git, habrá que hacer el comando "git add fichero.txt".
+El segundo lugar es el lugar de trabajo que es donde se encuentra el archivo después de hacer el add, si tenemos ya nuestro archivo listo con los cambios del area de trabajo, lo que tendremos que hacer es un comando para hacer un commit para subirlo al Repositorio personal, con el comando "git commit -a "Commit listo"".
+El tercer lugar es el Repositorio personal que es donde ya está todo listo para subirse al repositorio gitHub en la nube, para que todos puedan ver nuestro repositorio, para subirlo a gitHub tendremos que ejecutar el comando"git push -u y el link del repositorio de gitHub".
+El orden de estos lugares es [Directorio]-->[Area de trabajo]-->[Repositorio Personal]-->[Repositorio Compartido].
